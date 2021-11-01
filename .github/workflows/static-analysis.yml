@@ -52,7 +52,7 @@ jobs:
           python-version: '3.8'
 
       - name: Install Slither
-        run: pip3 install git+https://github.com/crytic/slither#master
+        run: pip3 install git+https://github.com/meetmangukiya/slither#keyerror-debug
 
       - name: Run analysis
         working-directory: ./packages/contracts
